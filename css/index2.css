@@ -1,0 +1,110 @@
+/* CSS pour styliser l'en-tête comme une barre de navigation */
+.tete nav {
+    background-color: #4727da; /* Couleur de fond de la barre de navigation */
+  }
+  
+  .tete nav ul {
+    list-style-type: none; /* Supprime les puces de la liste */
+    margin: 0;
+    padding: 0;
+    text-align: right; /* Centre les éléments de la liste horizontalement */
+  }
+  
+  .tete nav ul li {
+    display: inline-block; /* Affiche les éléments de la liste en ligne */
+  }
+  
+  .tete nav ul li a {
+    display: block; /* Transforme les liens en éléments de bloc pour les styliser */
+    padding: 10px 20px; /* Espacement intérieur des liens */
+    text-decoration: none; /* Supprime le soulignement des liens */
+    color: #fff; /* Couleur du texte des liens */
+  }
+  
+  .tete nav ul li a:hover {
+    background-color: #0fbedd; /* Couleur de fond au survol des liens */
+  }
+  
+  /* //////////////////////style du page index///////////////// */
+  /* Style du conteneur principal */
+  .bodyindex{
+    font-family: Arial, sans-serif;
+    margin: 0 auto;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Style du titre */
+.container h1 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+/* Style du paragraphe de description */
+.container p {
+    font-size: 1rem;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+
+/* Style des boutons */
+.buttons {
+    display: flex;
+    justify-content: center;
+}
+
+.buttons a {
+    text-decoration: none;
+}
+
+.buttons button {
+    padding: 10px 20px;
+    margin: 0 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+.buttons button:hover {
+    background-color: #0056b3;
+}
+
+/* Style de la section À propos */
+section {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+section h2 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+section p {
+    font-size: 1rem;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+
+section ul {
+    margin-bottom: 20px;
+}
+
+section ul li {
+    font-size: 1rem;
+    line-height: 1.5;
+    margin-bottom: 10px;
+}
